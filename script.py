@@ -1,11 +1,13 @@
+#!/usr/bin/env python
+
 import requests
 
-def main():
+#print(requests.__version__)
 
-    print(requests.__version__)
+#r = requests.get('http://google.com')
+#print(r.text)
+#print(r.status_code)
 
-    print(requests.get('http://google.com'))
+r = requests.get('https://github.com/Blazusiak/CMPUT404/raw/master/script.py')
 
-    
-
-main()
+print(r.text)
