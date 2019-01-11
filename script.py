@@ -8,6 +8,6 @@ import requests
 #print(r.text)
 #print(r.status_code)
 
-r = requests.get('https://github.com/Blazusiak/CMPUT404/raw/master/script.py')
+r = requests.get('https://raw.githubusercontent.com/Blazusiak/CMPUT404LAB1/master/script.py')
 
 print(r.text)
